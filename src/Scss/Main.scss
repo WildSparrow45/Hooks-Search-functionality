@@ -1,0 +1,11 @@
+.custom-main {
+  a {
+    display: block;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    &:hover {
+      color: rgb(235, 129, 129);
+    }
+  }
+}

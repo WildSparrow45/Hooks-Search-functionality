@@ -1,0 +1,28 @@
+.custom-Searchbar {
+  border: 2px solid red;
+
+  input[type="text"] {
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+  }
+  button {
+    width: 60px;
+    border: none;
+    background-color: rgb(255, 242, 3);
+    color: black;
+    font-weight: 800;
+
+    padding: 3px 10px;
+    border-radius: 0px;
+
+    &:hover {
+      color: white;
+    }
+    &:active {
+      border: none;
+      background-color: red;
+    }
+  }
+}

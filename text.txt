@@ -1,0 +1,9 @@
+export function ContextAPI() {
+  return (
+    <>
+      <Contextdata.Provider value={filterdata}>
+        <UseEffect />
+      </Contextdata.Provider>
+    </>
+  );
+}
