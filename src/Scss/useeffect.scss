@@ -8,7 +8,7 @@
 .custom-use-effect {
   @include custom-flex(column, space-around, center);
   box-sizing: border-box;
-  border: 5px solid black;
+  // border: 5px solid black;
   h1 {
     color: red;
     font-size: 50px;
@@ -28,13 +28,13 @@
 
   .custom-product {
     @include custom-flex(row, space-around, center);
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 100%;
     .custom-product-item {
       text-align: center;
       width: 23.5%;
 
-      border: 2px solid rgb(241, 241, 241);
+      // border: 2px solid rgb(241, 241, 241);
       padding: 20px;
       margin-bottom: 50px;
       box-shadow: (8px 8px 10px rgb(248, 248, 248));
